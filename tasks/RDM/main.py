@@ -192,5 +192,7 @@ if __name__ == "__main__":
     InputSubject(exp_title="RandomDotMotion")
     RDMExp(config, run_num=0, lang="E",
            pulse_server=pulse_server)
+    Label(text="Task Complete! Please wait for the program to automatically close.",
+          font_size=s(config.INST_FONT_SIZE), duration=2.0)
 
     exp.run()
